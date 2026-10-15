@@ -6,10 +6,17 @@ export const contact = {
   whatsapp: 'https://wa.me/5511997605263',
   email: 'contato@contabilng.com.br',
   hours: 'Seg - Sex 8:30 - 16:45',
+  address: {
+    title: 'Filiais ABC',
+    lines: ['Alameda São Caetano, 1021, Sala 3,', 'Campestre, Santo André - SP', 'CEP 09070-105'],
+    map: 'https://www.google.com/maps?q=Alameda+S%C3%A3o+Caetano,+1021,+Campestre,+Santo+Andr%C3%A9+-+SP,+09070-105&output=embed',
+    mapLink: 'https://www.google.com/maps/search/?api=1&query=Alameda+S%C3%A3o+Caetano,+1021,+Santo+Andr%C3%A9+-+SP',
+  },
   social: {
     facebook: '#',
     linkedin: '#',
     instagram: '#',
+    blog: '#blog',
   },
 }
 
@@ -19,7 +26,7 @@ export const nav = [
   { label: 'Serviços', href: '#servicos' },
   { label: 'Planos', href: '#processo' },
   { label: 'Contato', href: '#contato' },
-  { label: 'Blog', href: '#' },
+  { label: 'Blog', href: '#blog' },
   { label: 'Faqs', href: '#' },
 ]
 
@@ -109,3 +116,32 @@ export const testimonials = [
     text: 'Atendimento excelente! Esse é o resumo. Sempre prontos a sanar nossas dúvidas e com uma assessoria extremamente eficiente. São conhecedores do que fazem e só tenho a agradecer pela parceria.',
   },
 ]
+
+export const posts = [
+  {
+    title: 'Receita Federal alerta sobre golpes online que imitam o PGMEI',
+    date: '25 jul 2024',
+    tag: 'MEI',
+    image: u('photo-1563986768609-322da13575f3', 800),
+    href: '#',
+  },
+  {
+    title: 'PIS retroativo: entenda o que é e quem tem direito a receber',
+    date: '25 jul 2024',
+    tag: 'Trabalhista',
+    image: u('photo-1579621970563-ebec7560ff3e', 800),
+    href: '#',
+  },
+  {
+    title: 'Receita facilita regularização de débitos tributários decorrentes de decisões favoráveis no Carf',
+    date: '21 jun 2024',
+    tag: 'Tributário',
+    image: u('photo-1450101499163-c8848c66ca85', 800),
+    href: '#',
+  },
+]
+
+export const ctaImage = u('photo-1450101499163-c8848c66ca85', 1600)
+
+// Clientes exibidos na faixa do rodapé (troque por logos em /public se quiser).
+export const clients = ['Jardim do Olhar', 'Ecologicamigos', 'MLP Vendas', 'Nobre Paladar', 'R3', 'Império Dança', 'Comet Açaí', 'Haus']

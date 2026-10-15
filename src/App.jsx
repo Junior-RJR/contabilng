@@ -11,6 +11,8 @@ import Services from './components/Services.jsx'
 import Process from './components/Process.jsx'
 import Testimonials from './components/Testimonials.jsx'
 import Contact from './components/Contact.jsx'
+import Blog from './components/Blog.jsx'
+import StartCTA from './components/StartCTA.jsx'
 import Footer from './components/Footer.jsx'
 import WhatsAppButton from './components/WhatsAppButton.jsx'
 
@@ -40,6 +42,8 @@ export default function App() {
         <Process />
         <Testimonials />
         <Contact />
+        <Blog />
+        <StartCTA />
       </main>
       <Footer />
       <WhatsAppButton />
