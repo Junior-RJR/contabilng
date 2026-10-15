@@ -157,9 +157,6 @@ export default function Hero({ ready }) {
         </motion.div>
       </div>
 
-      <motion.a href="#empresa" className="scroll-cue" aria-label="Rolar para baixo" initial={{ opacity: 0 }} animate={ready ? { opacity: 1 } : {}} transition={{ delay: 1.8 }}>
-        <span><motion.i animate={{ y: [0, 14, 0] }} transition={{ duration: 1.6, repeat: Infinity }} /></span>
-      </motion.a>
     </section>
   )
 }

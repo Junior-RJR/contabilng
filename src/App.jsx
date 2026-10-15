@@ -5,7 +5,7 @@ import ScrollProgress from './components/ScrollProgress.jsx'
 import TopBar from './components/TopBar.jsx'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
-import Marquee from './components/Marquee.jsx'
+import Highlights from './components/Highlights.jsx'
 import About from './components/About.jsx'
 import Services from './components/Services.jsx'
 import Process from './components/Process.jsx'
@@ -36,7 +36,7 @@ export default function App() {
       <Header />
       <main>
         <Hero ready={!loading} />
-        <Marquee />
+        <Highlights />
         <About />
         <Services />
         <Process />
